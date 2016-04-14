@@ -51,6 +51,10 @@ if (SOLIDITY)
 	add_subdirectory(solidity)
 endif()
 
+if (EVMJIT)
+	add_subdirectory(evmjit)
+endif()
+
 if (GUI)
 	add_subdirectory(alethzero)
 	if (SOLIDITY)
